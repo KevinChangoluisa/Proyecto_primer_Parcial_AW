@@ -1,14 +1,6 @@
 
 ## PROYECTO: Aplicación en NodeJS que permita leer los datos de las Suscripciones a telefonía celular móvil
 
-
-INTEGRANTES:
-```
-- ANDRES GUEVARRA
-- KEVIN CHANGOLUISA
-- MARIO SUIN
-- DAVID MORALES
-```
 ```
 Requerimientos funcionales:
 
