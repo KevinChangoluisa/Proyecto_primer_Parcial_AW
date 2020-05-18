@@ -9,6 +9,9 @@ CONTIENE LOS CODIGOS DE PAISES NORMA ISO-3166-ALPHA-3 ACTUALES
 FORMA PARA PUBLICAR
 node app.js publicar -f "./nombre_archivo.csv" -c "codigo_pais" -y año
 
+PARA ACCEDER A LA VISUALIZACION POR LA WEB
+DIGITE localhost:30000 en la url de su navegador
+
 FORMA PARA GUARDAR
 
 node app.js guardar -f "./nombre_archivo.csv" -c "codigo_pais" -y año -o "nomre_archivo_sin_extension"
