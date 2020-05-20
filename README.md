@@ -1,29 +1,127 @@
+# Aplicación en NodeJS que permita leer los datos de las Suscripciones a telefonía celular móvil
 
-## PROYECTO: Aplicación en NodeJS que permita leer los datos de las Suscripciones a telefonía celular móvil
+_Crear una aplicación en NodeJS que permita leer los datos de las suscripciones a telefonía celular móvil, publicadas por el Banco
+Mundial y publicar las estadísticas de un determinado país en un año específico._
 
-```
-Requerimientos funcionales:
+## Comenzando 🚀
 
-• La media de suscripciones de todos los países en el año especificado.
-• Establecer si el valor de las suscripciones del país determinado, es mayor o menor a la media mundial.
-• Los cinco países por encima del valor de suscripciones del país determinado.
-• Los cinco países por debajo del valor de suscripciones del país determinado.
-• El top cinco de países para el año especificado.
-```
-```
-Requerimientos no funcionales:
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-La aplicación dispone de dos comandos. Independientemente del comando que se ejecute, el programa debe mostrar los resultados en la terminal (utilizar colores). Considerar las validaciones correspondientes para todos los parámetros de los comandos.
-El primer comando es publicar. Este comando publicará las estadísticas en una página web básica. Se requieren de tres parámetros:
+Mira **Deployment** para conocer como desplegar el proyecto.
 
-• --file -f: Permite establecer el path del archivo CSV que contiene los datos a analizar
-• --country -c: Permite determinar el país a analizar a través de su código ISO 3166 ALPHA-3.
-• --year -y: Permite especificar el año para el cual se requiere las estadísticas. Por defecto, 2018.
 
-El segundo comando es guardar. Este comando almacenará los resultados de las estadísticas en un archivo json. Recibe los mismos parámetros que el comando anterior, y se adiciona la siguiente opción:
+### Pre-requisitos 📋
 
-• --out -o: Establece el nombre del archivo donde se almacenará los resultados.
+_Software que necesitas instalar._
 
 ```
+Visual Studio Code
+Node.js® 
+```
+_Librerias que necesitas instalar._
+
+```
+yargs
+colors
+csvtojson
+```
+_Archivos adicionales._
+```
+API_IT.CEL.SETS_DS2_es_csv_v2_1004854.csv
+```
+### Instalación 🔧
+
+_👇Aqui 👇 encontraras un guia de instalacion facil de Visual Studio code y node.js._
 
 
+_Solo ingresa <https://mega.nz/file/nqJShAiA#zm1fgaATnYchLenZnCqkgmmduVdXV3iN1JYQ6zJWsVo/> y sigue los pasos del pdf._
+
+_Instalacion de libreria yargs, colors, csvtojson._
+
+```
+Ingresa a la terminal de VSC y digita:
+npm install yargs colors csvtojson --save
+```
+![Screenshot](im_readme/yargs_colors_csvtojson.PNG)
+
+_Base de datos de suscripciones a telefonía celular móvil._
+
+_Solo da un clic en el enlace: <http://api.worldbank.org/v2/es/indicator/IT.CEL.SETS?downloadformat=csv/> y comenzara la descarga automaticamente._
+```
+Guarda en la carpeta raiz del proyecto
+Te quedara algo como esto:
+```
+![Screenshot](im_readme/zip.PNG)
+```
+Descomprime el archivo API_IT.CEL.SETS_DS2_es_csv_v2_1004854.csv en la carpeta raiz del proyecto
+Te quedara algo como esto:
+```
+![Screenshot](im_readme/csv1.PNG)
+
+## Ejecutando las pruebas ⚙️
+
+La aplicacion cuenta con 2 comandos:
+* Publicar
+* Guardar
+
+**Publicar**
+
+La estructura para publicar en la aplicacion es la sigueinte:
+node app.js publicar **-f** "nombre_archivo.csv" **-c** "[codigo_del_pais ](https://laendercode.net/es/3-letter-list.html)" **-y** Año
+
+```
+Ejemplo:
+node app.js publicar -f "./API_IT.CEL.SETS_DS2_es_csv_v2_1004854.csv" -c "ECU" -y 2016  
+```
+  ![Screenshot](im_readme/consola.gif)
+Para visualizar los resultados en la web isga los siguientespasos
+```
+Abra su navegador digite en la seccion de url: localhost:3000
+de clic en visualizar
+```
+ ![Screenshot](im_readme/web.gif)
+
+
+**Guardar**
+
+La estructura para guardar en la aplicacion es la siguiente:
+node app.js guardar **-f** "nombre_archivo.csv" **-c** "[codigo_del_pais ](https://laendercode.net/es/3-letter-list.html)" **-y** Año **-o** "nombre_archivo_sin_extension"
+
+```
+Ejemplo:
+node app.js guardar -f "./API_IT.CEL.SETS_DS2_es_csv_v2_1004854.csv" -c "ARE" -y 1982 -o consultas
+```
+ ![Screenshot](im_readme/guardar.gif)
+
+## Construido con 🛠️
+
+_Menciona las herramientas que utilizaste para crear tu proyecto_
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
+* [Maven](https://maven.apache.org/) - Manejador de dependencias
+* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+
+
+## Versionado 📌
+
+Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+
+## Autores ✒️
+
+_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+
+* **Kevin Changoluisa** - *Trabajo Inicial* - [KevinChangoluisa](https://github.com/KevinChangoluisa)
+* **Kevin Changoluisa** - *Documentación* - [KevinChangoluisa](https://github.com/KevinChangoluisa)
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia GNU General Public License v3.0 - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
+## Expresiones de Gratitud 🎁
+
+* Comenta a otros sobre este proyecto 📢
+* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
+* Da las gracias públicamente 🤓.
+* etc.
+
+---
