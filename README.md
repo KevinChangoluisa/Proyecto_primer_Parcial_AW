@@ -91,6 +91,10 @@ node app.js guardar -f "./API_IT.CEL.SETS_DS2_es_csv_v2_1004854.csv" -c "ARE" -y
 ```
  ![Screenshot](im_readme/guardar.gif)
 
+
+[Vista general](https://youtu.be/kFM_HQvt5BU)
+
+
 ## Construido con 🛠️
 
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de código fuente.
