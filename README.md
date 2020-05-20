@@ -71,7 +71,8 @@ Ejemplo:
 node app.js publicar -f "./API_IT.CEL.SETS_DS2_es_csv_v2_1004854.csv" -c "ECU" -y 2016  
 ```
   ![Screenshot](im_readme/consola.gif)
-Para visualizar los resultados en la web isga los siguientespasos
+  
+Para visualizar los resultados en la web siga los siguientes pasos:
 ```
 Abra su navegador digite en la seccion de url: localhost:3000
 de clic en visualizar
@@ -93,7 +94,7 @@ node app.js guardar -f "./API_IT.CEL.SETS_DS2_es_csv_v2_1004854.csv" -c "ARE" -y
 ## Construido con 🛠️
 
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de código fuente.
-* [Maven](https://nodejs.org/es/) - Entorno de ejecución para JavaScript.
+* [Node js](https://nodejs.org/es/) - Entorno de ejecución para JavaScript.
 
 
 ## Versionado 📌
