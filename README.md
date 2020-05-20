@@ -109,8 +109,11 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Kevin Changoluisa** - *Trabajo Inicial* - [KevinChangoluisa](https://github.com/KevinChangoluisa)
-* **Kevin Changoluisa** - *Documentación* - [KevinChangoluisa](https://github.com/KevinChangoluisa)
+* **ANDRES GUEVARRA** (https://github.com/AndresGuevara01)
+* **KEVIN CHANGOLUISA** (https://github.com/KevinChangoluisa)
+* **MARIO SUIN** (https://github.com/marioAlbertoSuin)
+* **DAVID MORALES** (https://github.com/DavidMorales-18)
+
 
 ## Licencia 📄
 
