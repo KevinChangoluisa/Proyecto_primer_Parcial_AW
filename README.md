@@ -5,10 +5,7 @@ Mundial y publicar las estadísticas de un determinado país en un año específ
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
+_Estas instrucciones te permitirán ejecutar de manera optima la aplicacion, sigue los pasos, para cualquier duda no dudes en contactarme kchangoluisa@hotmail.com._
 
 ### Pre-requisitos 📋
 
@@ -95,11 +92,8 @@ node app.js guardar -f "./API_IT.CEL.SETS_DS2_es_csv_v2_1004854.csv" -c "ARE" -y
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Visual Studio Code](https://code.visualstudio.com/) - Editor de código fuente.
+* [Maven](https://nodejs.org/es/) - Entorno de ejecución para JavaScript.
 
 
 ## Versionado 📌
@@ -115,7 +109,7 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia GNU General Public License v3.0 - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia GNU General Public License v3.0 - mira el archivo [LICENSE.md](LICENSE) para detalles
 
 ## Expresiones de Gratitud 🎁
 
